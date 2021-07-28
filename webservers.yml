@@ -1,3 +1,4 @@
 - hosts: webservers
+  remote_user: jenkins
   roles:
     - install-nginx
